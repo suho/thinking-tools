@@ -1,0 +1,55 @@
+---
+name: first-principles
+description: First-principles thinking - break a problem down to its basic truths with Five Whys and Socratic questioning, then rebuild an original solution from those truths instead of from convention or analogy. Use when the user needs an innovative solution to a complex problem, wants to challenge assumptions, or says "first principles", "from scratch", "five whys".
+---
+
+# First Principles
+
+Turn the user's problem into its fundamental truths, separated from assumptions, and a solution rebuilt from those truths.
+
+## Input
+
+Work from the user's context. Infer what you can and state assumptions. Ask only for gaps that block a correct breakdown (one round, max 3 questions). The minimum input is a problem or goal and the current or obvious solution, if one exists.
+
+## Steps
+
+1. **State the problem** and the conventional solution or belief about it.
+2. **Decompose.** Break the problem into its parts (components, costs, constraints, actors, requirements).
+3. **Dig each part.** For each part, ask "why?" repeatedly (Five Whys) and use Socratic questions until you reach a statement that cannot be broken down further:
+   - Clarify: what exactly do we mean by this?
+   - Probe assumptions: what could we assume instead?
+   - Probe evidence: why do we think this is true?
+   - Consequences: what follows if this is true?
+   - Viewpoints: what would an alternative be?
+   - The question itself: why does this question matter?
+4. **Sort.** Label every statement as a **first principle** (a fact, physical or logical limit, or verified need) or an **assumption** (convention, habit, analogy, untested belief). Done when every statement has a label and a one-line reason.
+5. **Rebuild.** Using only the first principles, design 1-3 solutions. Ignore how it is usually done. Explain which assumption each solution discards.
+6. **Test.** For the best solution, list what must be true for it to work and how to check it cheaply.
+
+## Output
+
+```markdown
+## Problem
+<problem> - conventional answer: <...>
+
+## Breakdown
+| Part | Why chain | Result | Type |
+|---|---|---|---|
+| <part> | <why -> why -> ...> | <statement> | first principle / assumption |
+
+## First principles
+- <truth>
+
+## Rebuilt solutions
+1. <solution> - discards assumption: <...>
+
+## Validation
+- <what must be true> - <cheap test>
+```
+
+## Related
+
+- `abstraction-laddering` if the problem statement itself may be wrong.
+- `inversion` to stress-test the rebuilt solution.
+
+Source: https://untools.co/first-principles/

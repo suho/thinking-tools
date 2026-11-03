@@ -1,0 +1,13 @@
+{
+  "name": "thinking-tools",
+  "version": "0.1.0",
+  "description": "Thinking tools from untools.co as skills. Each skill applies one tool to your idea, topic, or context and produces the tool's output. The choose-tool skill picks the right tool.",
+  "author": {
+    "name": "Su Ho",
+    "url": "https://github.com/suho"
+  },
+  "homepage": "https://github.com/suho/thinking-tools",
+  "repository": "https://github.com/suho/thinking-tools",
+  "license": "MIT",
+  "keywords": ["thinking-tools", "untools", "decision-making", "problem-solving", "systems-thinking", "communication", "mental-models"]
+}

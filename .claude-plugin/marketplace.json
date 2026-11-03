@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "thinking-tools",
+  "description": "Thinking tools from untools.co as Claude Code skills.",
+  "owner": {
+    "name": "Su Ho",
+    "url": "https://github.com/suho"
+  },
+  "plugins": [
+    {
+      "name": "thinking-tools",
+      "description": "Thinking tools from untools.co as skills. Each skill applies one tool to your idea, topic, or context and produces the tool's output. The choose-tool skill picks the right tool.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/suho/thinking-tools"
+    }
+  ]
+}
